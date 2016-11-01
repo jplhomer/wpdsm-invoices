@@ -8,6 +8,9 @@ PHPUnit is required to run the tests, as well as a local WordPress install with 
 
 1. Clone this folder to the plugins folder of an active WordPress install
 1. Install the test suite:
+
 		$ sh bin/install-wp-tests.sh dbname dbuser dbpass dbhost
+
 1. Run tests:
+
 		$ phpunit
